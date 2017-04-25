@@ -1,0 +1,49 @@
+/* body {
+      background-image: url('/Users/Davidws/Downloads/waves.jpg');
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+} */
+
+
+
+.section .reveal .state-background {
+    background: blue;}
+
+.reveal h1 {
+  text-align: left;
+  font-import: 'https://fonts.googleapis.com/css?family=Didact+Gothic';
+  font-family: 'Didact Gothic';
+  font-size: 120%;
+} 
+
+.reveal h2,
+.reveal h3 {
+  text-align: left;
+  font-import: 'https://fonts.googleapis.com/css?family=Didact+Gothic';
+  font-family: 'Didact Gothic';
+  font-size: 90%;
+} 
+  
+.reveal p {
+  text-align: left;
+  font-import: 'https://fonts.googleapis.com/css?family=Didact+Gothic';
+  font-family: 'Didact Gothic';
+  font-size: 80%;
+} 
+.reveal ul {
+  display: block;
+  font-import: 'https://fonts.googleapis.com/css?family=Didact+Gothic';
+  font-family: 'Didact Gothic';
+  font-size: 70%;
+}
+.reveal ol {
+  display: block;
+  font-import: 'https://fonts.googleapis.com/css?family=Didact+Gothic';
+  font-family: 'Didact Gothic';
+  font-size: 70%;
+}  
+
+
+

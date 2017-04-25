@@ -1,0 +1,58 @@
+---
+title: "NYC R Conference Recap"
+author: "David Werner-Sexton"
+date: "4/23/2017"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    css: pdf.css
+    transition: none
+    pdfMaxPagesPerSlide: 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Main Points
+
+There were several main focuses we can incorporate
+
+- Reproducible Research
+
+- Data Empathy
+
+- Better tooling
+
+## Reproducible Research
+
+This was a big focus with companies like Airbnb and Jet Blue talking about how they keep their analysis reporducibile. 
+
+It can be a serious financial risk to companies to lose research and analysis due to staffing or tooling changes. 
+
+Airbnb maintains a comprehensive, searchable "knowledge repository" that has 4 key features: 
+
+- It is open to all employees
+- Anything submitted to the repository in code is checked by atleast 2 other people
+- They use Github to manage the submissions
+- They opensourced the system so anyone can use it
+
+They prioritize contributions as: 
+
+<center> Documentation > Usability > Performance > Features </center>
+
+## It's less complicated in the end
+
+<center>
+![](https://imgs.xkcd.com/comics/algorithms.png)
+</center>
+
+
+## Data Empathy
+
+Several speakers touched on how important it is to maintain perspective when creating analysis.
+
+- "The Near" and "The Far" - illustrated by tracing one person's lifecycle first and then expanding that to millions. 
+
+Important to keep this in mind as we do analysis
+
